@@ -1,0 +1,36 @@
+{
+  "name": "projetogs-js",
+  "homepage": ".",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+"scripts": {
+  "dev": "vite --port 5173",
+  "build": "vite build",
+  "deploy": "gh-pages -d docs",
+  "predeploy": "npm run build",
+  "lint": "eslint .",
+  "preview": "vite preview"
+},
+  "dependencies": {
+    "cors": "^2.8.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "recharts": "^2.13.3",
+    "styled-components": "^6.1.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "gh-pages": "^6.2.0",
+    "globals": "^15.11.0",
+    "vite": "^5.4.10"
+  }
+}
